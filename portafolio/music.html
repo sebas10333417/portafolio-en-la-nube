@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Biblioteca musical accesible con canciones y videos de Salsa y Merengue para todos.">
+  <title>Biblioteca Musical: Salsa y Merengue</title>
+  <link rel="stylesheet" href="music.css">
+</head>
+<body>
+ 
+
+  <header class="header" aria-label="Encabezado principal del sitio Biblioteca Musical Inclusiva">
+    <h1 class="title"> Biblioteca Musical </h1>
+    <p class="subtitle">Géneros musicales disponibles: Salsa y Merengue.</p>
+  </header>
+
+  <main id="main-content" class="main-content" aria-label="Contenido principal con música de Salsa y Merengue">
+    <!-- Género: Salsa -->
+    <section class="genre-section" aria-labelledby="salsa-heading">
+      <h2 id="salsa-heading" class="genre-title salsa"> Género: Salsa</h2>
+
+      <!-- Artista: Celia Cruz -->
+      <div class="artist-section" aria-label="Sección del artista Celia Cruz, álbum La Reina de la Salsa">
+        <h3 class="artist-name">Celia Cruz</h3>
+
+        <article class="album">
+          <h4 class="album-title">Álbum: La Reina de la Salsa</h4>
+
+          <figure class="album-cover">
+            <img src="CeliaCruz.jpeg" alt="Carátula del álbum La Reina de la Salsa de Celia Cruz" class="cover-image">
+            <figcaption class="cover-caption">Carátula del álbum La Reina de la Salsa</figcaption>
+          </figure>
+
+          <ul class="songs-list" role="list" aria-label="Canciones y videos del álbum La Reina de la Salsa">
+            <li class="song-item">
+              <p class="song-title"><strong>La Vida Es un Carnaval</strong></p>
+              <audio controls class="audio-player" aria-label="Reproducir La Vida Es un Carnaval de Celia Cruz" lang="es">
+                <source src="./imagenes/La Vida Es Un Carnaval - Celia Cruz (1).mp3" type="audio/mpeg">
+                Tu navegador no soporta audio.
+              </audio>
+            </li>
+            <li class="song-item">
+              <p class="song-title"><strong>Químbara</strong></p>
+              <div class="video-wrapper">
+                <iframe class="video-player" src="https://www.youtube.com/embed/Zm2C5hx4sI0?si=tyUZqFt0dH771NNe" title="Video Químbara de Celia Cruz" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>
+            </li>
+            <li class="song-item">
+              <p class="song-title"><strong>Guantanamera</strong></p>
+              <audio controls class="audio-player" aria-label="Reproducir Guantanamera de Celia Cruz" lang="es">
+                <source src="./imagenes/Celia Cruz - Guantanamera (Audio).mp3" type="audio/mpeg">
+                Tu navegador no soporta audio.
+              </audio>
+            </li>
+            <li class="song-item">
+              <p class="song-title"><strong>Toro Mata</strong></p>
+              <div class="video-wrapper">
+                <iframe class="video-player" src="https://www.youtube.com/embed/8Ky5YH7QbEY?si=PPEHSm75121EGEL6" title="Video Toro Mata de Celia Cruz" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>
+            </li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- Género: Merengue -->
+    <section class="genre-section" aria-labelledby="merengue-heading">
+      <h2 id="merengue-heading" class="genre-title merengue"> Género: Merengue</h2>
+
+      <!-- Artista: Juan Luis Guerra -->
+      <div class="artist-section" aria-label="Sección del artista Juan Luis Guerra, álbum Bachata Rosa">
+        <h3 class="artist-name">Juan Luis Guerra</h3>
+
+        <article class="album">
+          <h4 class="album-title">Álbum: Bachata Rosa</h4>
+
+          <figure class="album-cover">
+            <img src="bachatarosa.jpeg" alt="Carátula del álbum Bachata Rosa de Juan Luis Guerra" class="cover-image">
+            <figcaption class="cover-caption">Carátula del álbum Bachata Rosa</figcaption>
+          </figure>
+
+          <ul class="songs-list" role="list" aria-label="Canciones y videos del álbum Bachata Rosa">
+            <li class="song-item">
+              <p class="song-title"><strong>Burbujas de Amor</strong></p>
+              <audio controls class="audio-player" aria-label="Reproducir Burbujas de Amor de Juan Luis Guerra" lang="es">
+                <source src="./imagenes/Burbujas De Amor.mp3" type="audio/mpeg">
+                Tu navegador no soporta audio.
+              </audio>
+            </li>
+            <li class="song-item">
+              <p class="song-title"><strong>Ojalá Que Llueva Café</strong></p>
+              <div class="video-wrapper">
+                <iframe class="video-player" src="https://www.youtube.com/embed/pSAMSV6pDE8?si=rETmQTwrYNIycVbc" title="Video Ojalá Que Llueva Café de Juan Luis Guerra" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>
+            </li>
+            <li class="song-item">
+              <p class="song-title"><strong>La Bilirrubina</strong></p>
+              <audio controls class="audio-player" aria-label="Reproducir La Bilirrubina de Juan Luis Guerra" lang="es">
+                <source src="./imagenes/Juan Luis Guerra 4.40 - La Bilirrubina (Lyric Video).mp3" type="audio/mpeg">
+                Tu navegador no soporta audio.
+              </audio>
+            </li>
+            <li class="song-item">
+              <p class="song-title"><strong>Estrellitas y Duendes</strong></p>
+              <div class="video-wrapper">
+                <iframe class="video-player" src="https://www.youtube.com/embed/op8zH-7dDW0?si=DIHuMETIqqZ5P_Z0" title="Video Estrellitas y Duendes de Juan Luis Guerra" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>
+            </li>
+          </ul>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" aria-label="Pie de página con información del proyecto educativo">
+    <p class="footer-text"> Proyecto educativo para promover la inclusión musical. Fundación Ritmo para Todos.</p>
+  </footer>
+</body>
+</html>
